@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+  <meta charset="UTF-8">
+  <title layout:title-pattern="$LAYOUT_TITLE | $CONTENT_TITLE">Registration</title>
+
+  <link rel="stylesheet" th:href="@{/resources/css/bootstrap.min.css}">
+  <link rel="stylesheet"  th:href="@{/resources/css/font-awesome.min.css}">
+
+  <script th:src="@{/resources/js/jquery.min.js}"></script>
+  <script th:src="@{/resources/js/popper.min.js}"></script>
+  <script th:src="@{/resources/js/bootstrap.min.js}"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand navbar-dark bg-secondary d-flex justify-content-between">
+    <a th:href="@{/}" class="navbar-brand"><i class="fa fa-home"></i>Home</a>
+
+    <div class="navbar-nav">
+      <a href="" class="nav-link"><i class="fa fa-send"></i> Apply</a>
+      <a href="" class="nav-link"><i class="fa fa-send"></i> Application</a>
+      <a href="" class="nav-link"><i class="fa fa-check"></i> Confirmation</a>
+      <a href="" class="nav-link"><i class="fa fa-cogs"></i> Setting</a>
+    </div>
+  </nav>
+
+
+</body>
+</html>
